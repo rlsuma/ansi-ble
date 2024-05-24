@@ -3,7 +3,7 @@
   vars_prompt:
   - name: USERNAME
     prompt: please enter your username
-    private: flase
+    private: false
   - name: PASSWORD
     prompt: please enter your password
     private: true
