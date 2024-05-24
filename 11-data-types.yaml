@@ -1,17 +1,17 @@
 - name: data types
-  hosts: loaclhost
+  hosts: localhost
   vars:
-   Course: Devops with AWS
-   Tools: 
-   - Linux
-   - Shell
-   - Ansible
-   Experience: 
-     Devops: 3
-     AWS: 4
-     Docker: 2
-    Realproject: true
-  tasks: 
+    Course: DevOps with AWS #string
+    Tools: # list
+    - Linux
+    - Shell
+    - Ansible
+    Experience: # map or dictionary
+      DevOps: 3 # number
+      AWS: 2
+      Docker: 1
+    RealProject: true #boolean
+  tasks:
   - name: print variables
     ansible.builtin.debug:
-     msg; "Course: {{Course}}, Tools covered: {{Tools}},Experience is: {{Experience}}, is real project :{{RealProject}}"  
+      msg: "Course: {{Course}}, Tools covered: {{Tools}}, Experience is: {{Experience}}, is real project: {{RealProject}}"
