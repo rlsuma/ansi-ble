@@ -1,5 +1,5 @@
 - name: variables
-  hosts: loacalhost
+  hosts: localhost
   vars: 
     course: ansible
     Duration: "150hrs"
