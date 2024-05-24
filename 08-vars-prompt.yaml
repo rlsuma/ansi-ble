@@ -1,10 +1,10 @@
 - name: variable from prompt
   hosts: localhost
   vars_prompt:
-  - name:USERNAME
+  - name: USERNAME
     prompt: please enter your username
     private: flase
-  - name:PASSWORD
+  - name: PASSWORD
     prompt: please enter your password
     private: true
   tasks:
