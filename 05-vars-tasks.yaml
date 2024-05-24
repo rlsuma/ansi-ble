@@ -2,8 +2,9 @@
   hosts: localhost
   vars: 
     course: ansible
-    Duration: "150hrs"
     Trainer: "shiva"
+    Duration: "150hrs"
+    
   tasks:
   - name: print override information 
     vars:
