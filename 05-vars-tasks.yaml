@@ -7,12 +7,12 @@
   tasks:
   - name: print override information 
     vars:
-     course: "Devops"
+      course: "Devops"
     ansible.builtin.debug:
-     msg: "Hi we are learning {{course}} from Trainer {{Trainer}},Duration is {{duration}}."
+      msg: "Hi we are learning {{course}} from Trainer {{Trainer}}, Duration is {{duration}}."
 
   - name: print override information 
     ansible.builtin.debug:
-      msg: "Hi we are learning {{course}} from Trainer {{Trainer}},Duration is {{duration}}."
+      msg: "Hi we are learning {{course}} from Trainer {{Trainer}}, Duration is {{duration}}."
     
 
