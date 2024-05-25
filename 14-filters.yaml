@@ -8,7 +8,7 @@
 - name: upper case
   hosts: localhost
   vars:
-    greetings: "Hello ,good morning"
+    greetings: "Hello ,Good Morning"
   tasks:
   - name: convert into uppercase
     ansible.builtin.debug:
