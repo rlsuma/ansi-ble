@@ -48,7 +48,7 @@
   hosts: localhost
   vars:
     my_dict:
-      Course:Ansible
+      Course: Ansible
       Trainer: Sivakumar
       Duration: 120hr
   tasks:
@@ -58,5 +58,5 @@
   - name: after convert
     ansible.builtin.debug:
      msg: "After convert: {{my_dict | dict2itmes }}" 
-       
+
 
