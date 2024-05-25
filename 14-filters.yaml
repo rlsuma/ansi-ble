@@ -6,7 +6,7 @@
      msg: "HELLo {{course | default('ansible') }}"
 
 - name: upper case
-  hosts: local host
+  hosts: localhost
   vars:
     greetings: "Hello ,good morning"
   tasks:
