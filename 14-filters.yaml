@@ -53,7 +53,7 @@
       Duration: 120hr
   tasks:
   - name: before convert 
-    ansible.built.in.debug:
+    ansible.builtin.debug:
      msg: "Before convert: {{ my_dict }}"
   - name: after convert
     ansible.builtin.debug:
