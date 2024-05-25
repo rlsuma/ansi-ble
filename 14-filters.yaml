@@ -52,11 +52,11 @@
       Trainer: Sivakumar
       Duration: 120hr
   tasks:
-  - name:
+  - name: before convert 
     ansible.built.in.debug:
      msg: "Before convert: {{ my_dict }}"
   - name: after convert
     ansible.builtin.debug:
-     msg: "After convert: {{my_dict | dict2itmes }}" 
+      msg: "After convert: {{my_dict | dict2itmes }}" 
 
 
