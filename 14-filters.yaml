@@ -36,7 +36,7 @@
 
 
 - name: print min and max
-  host: localhost
+  hosts: localhost
   vars:
     ages: [25,23,44,56,98]
   tasks:
